@@ -9,3 +9,14 @@ def name=(new_name)
   @name= new_name
 end
 end
+
+class Dog
+def initialize
+  @breed = breed
+end
+def breed
+  @breed
+end
+def breed=(new_breed)
+  @breed= new_breed
+end
